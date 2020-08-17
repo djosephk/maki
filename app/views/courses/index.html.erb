@@ -19,6 +19,7 @@
         <td><%= course.description %></td>
         <td><%= course.coursedate %></td>
         <td><%= link_to 'Show', course %></td>
+        <td><%= link_to 'Add Meeting', new_course_meeting_path(course) %></td>
         <td><%= link_to 'Edit', edit_course_path(course) %></td>
         <td><%= link_to 'Destroy', course, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>

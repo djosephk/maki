@@ -15,5 +15,12 @@
   <%= @course.coursedate %>
 </p>
 
+<% @course.meetings.each do |meeting| %>
+<p>
+  <strong>Meetingdate:</strong>
+  <%= meeting.meetingdate %>
+</p>
+<% end %>
+
 <%= link_to 'Edit', edit_course_path(@course) %> |
 <%= link_to 'Back', courses_path %>

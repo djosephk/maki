@@ -1,4 +1,4 @@
-@charset "UTF-8";
+/assets@charset "UTF-8";
 /*!
  * Material Design for Bootstrap 4
  * Version: MDB PRO 4.8.10
@@ -1498,32 +1498,47 @@ button.bg-light:focus {
 
 @font-face {
   font-family: "Roboto";
-  src: local(Roboto Thin), url("../font/roboto/Roboto-Thin.eot");
-  src: url("../font/roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Thin.woff2") format("woff2"), url("../font/roboto/Roboto-Thin.woff") format("woff"), url("../font/roboto/Roboto-Thin.ttf") format("truetype");
+  src: url(/assets/Roboto-Thin.eot);
+  src: url(/assets/Roboto-Thin.eot?#iefix) format("embedded-opentype"),
+    url(/assets/Roboto-Thin.woff2) format("woff2"),
+    url(/assets/Roboto-Thin.woff) format("woff"),
+    url(/assets/Roboto-Thin.ttf) format("truetype");
   font-weight: 200; }
 
 @font-face {
   font-family: "Roboto";
-  src: local(Roboto Light), url("../font/roboto/Roboto-Light.eot");
-  src: url("../font/roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Light.woff2") format("woff2"), url("../font/roboto/Roboto-Light.woff") format("woff"), url("../font/roboto/Roboto-Light.ttf") format("truetype");
+  src: url(/assets/Roboto-Light.eot);
+  src: url(/assets/Roboto-Light.eot?#iefix) format("embedded-opentype"),
+    url(/assets/Roboto-Light.woff2) format("woff2"),
+    url(/assets/Roboto-Light.woff) format("woff"),
+    url(/assets/Roboto-Light.ttf) format("truetype");
   font-weight: 300; }
 
 @font-face {
   font-family: "Roboto";
-  src: local(Roboto Regular), url("../font/roboto/Roboto-Regular.eot");
-  src: url("../font/roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Regular.woff2") format("woff2"), url("../font/roboto/Roboto-Regular.woff") format("woff"), url("../font/roboto/Roboto-Regular.ttf") format("truetype");
+  src: url(/assets/Roboto-Regular.eot);
+  src: url(/assets/Roboto-Regular.eot?#iefix) format("embedded-opentype"),
+    url(/assets/Roboto-Regular.woff2) format("woff2"),
+    url(/assets/Roboto-Regular.woff) format("woff"),
+    url(/assets/Roboto-Regular.ttf) format("truetype");
   font-weight: 400; }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../font/roboto/Roboto-Medium.eot");
-  src: url("../font/roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Medium.woff2") format("woff2"), url("../font/roboto/Roboto-Medium.woff") format("woff"), url("../font/roboto/Roboto-Medium.ttf") format("truetype");
+  src: url(/assets/Roboto-Medium.eot);
+  src: url(/assets/Roboto-Medium.eot?#iefix) format("embedded-opentype"),
+    url(/assets/Roboto-Medium.woff2) format("woff2"),
+    url(/assets/Roboto-Medium.woff) format("woff"),
+    url(/assets/Roboto-Medium.ttf) format("truetype");
   font-weight: 500; }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../font/roboto/Roboto-Bold.eot");
-  src: url("../font/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Bold.woff2") format("woff2"), url("../font/roboto/Roboto-Bold.woff") format("woff"), url("../font/roboto/Roboto-Bold.ttf") format("truetype");
+  src: url(/assets/Roboto-Bold.eot);
+  src: url(/assets/Roboto-Bold.eot?#iefix) format("embedded-opentype"),
+    url(/assets/Roboto-Bold.woff2) format("woff2"),
+    url(/assets/Roboto-Bold.woff) format("woff"),
+    url(/assets/Roboto-Bold.ttf) format("truetype");
   font-weight: 700; }
 
 body {
@@ -1733,39 +1748,39 @@ a.text-light:hover, a.text-light:focus {
   transform: scale(1.1); }
 
 .pattern-1 {
-  background: url("../img/overlays/01.png");
+  background: url("/assets/overlays/01.png");
   background-attachment: fixed; }
 
 .pattern-2 {
-  background: url("../img/overlays/02.png");
+  background: url("/assets/overlays/02.png");
   background-attachment: fixed; }
 
 .pattern-3 {
-  background: url("../img/overlays/03.png");
+  background: url("/assets/overlays/03.png");
   background-attachment: fixed; }
 
 .pattern-4 {
-  background: url("../img/overlays/04.png");
+  background: url("/assets/overlays/04.png");
   background-attachment: fixed; }
 
 .pattern-5 {
-  background: url("../img/overlays/05.png");
+  background: url("/assets/overlays/05.png");
   background-attachment: fixed; }
 
 .pattern-6 {
-  background: url("../img/overlays/06.png");
+  background: url("/assets/overlays/06.png");
   background-attachment: fixed; }
 
 .pattern-7 {
-  background: url("../img/overlays/07.png");
+  background: url("/assets/overlays/07.png");
   background-attachment: fixed; }
 
 .pattern-8 {
-  background: url("../img/overlays/08.png");
+  background: url("/assets/overlays/08.png");
   background-attachment: fixed; }
 
 .pattern-9 {
-  background: url("../img/overlays/09.png");
+  background: url("/assets/overlays/09.png");
   background-attachment: fixed; }
 
 /*!
@@ -6465,10 +6480,10 @@ body.scrollable {
   height: 20px; }
 
 .carousel .carousel-control-prev-icon {
-  background-image: url(../img/svg/arrow_left.svg); }
+  background-image: url(/assets/svg/arrow_left.svg); }
 
 .carousel .carousel-control-next-icon {
-  background-image: url(../img/svg/arrow_right.svg); }
+  background-image: url(/assets/svg/arrow_right.svg); }
 
 .carousel .carousel-indicators li {
   width: 0.625rem;
@@ -7651,7 +7666,7 @@ table.table-sm td {
   &.fixed-top,
   &.sticky-top {
     .navbar-collapse {
-      @media (min-width: 400px) and (max-width: 767px), 
+      @media (min-width: 400px) and (max-width: 767px),
       (min-width: 800px) and (max-width: 850px) {
         max-height: 340px;
         overflow-x: hidden;
@@ -9842,7 +9857,7 @@ table.table a.btn.btn-discord {
 .pswp__button--arrow--right::before {
   width: 44px;
   height: 44px;
-  background: url(../img/lightbox/default-skin.png) 0 0 no-repeat;
+  background: url(/assets/lightbox/default-skin.png) 0 0 no-repeat;
   background-size: 264px 88px; }
 
 @media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
@@ -9850,7 +9865,7 @@ table.table a.btn.btn-discord {
   .pswp--svg .pswp__button,
   .pswp--svg .pswp__button--arrow--left::before,
   .pswp--svg .pswp__button--arrow--right::before {
-    background-image: url(../img/lightbox/default-skin.svg); }
+    background-image: url(/assets/lightbox/default-skin.svg); }
   .pswp--svg .pswp__button--arrow--left,
   .pswp--svg .pswp__button--arrow--right {
     background: none; } }
@@ -10092,7 +10107,7 @@ table.table a.btn.btn-discord {
   opacity: 1; }
   .pswp__preloader--active .pswp__preloader__icn {
     /* We use .gif in browsers that don't support cSS animation */
-    background: url(../img/lightbox/preloader.gif) 0 0 no-repeat; }
+    background: url(/assets/lightbox/preloader.gif) 0 0 no-repeat; }
 
 .pswp--css_animation .pswp__preloader--active {
   opacity: 1; }
